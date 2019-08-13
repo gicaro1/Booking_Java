@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HasFixedPrice
+comment0.text=\n\ Classes\ implementing\ this\ interface\ provide\ methods\ that\ returns\ a\ fixed\n\ price\ as\ an\ int\ in\ pence\ or\ as\ a\ formatted\ String.\ This\ interface\ also\n\ provides\ convenience\ functionality\ to\ generate\ a\ string\ representation\n\ from\ an\ amount\ of\ money\ given\ in\ pence.\n\n\ \ *\ @author\ Guiovanny\ Cardenas\ Rosales\n
+comment1.params=
+comment1.target=int\ getFixedPriceInPence()
+comment1.text=\n\ Returns\ a\ fixed\ price\ in\ pence\ for\ this\ object.\n\n\ @return\ a\ fixed\ price\ in\ pence\ for\ this\ object\n
+comment2.params=priceInPence
+comment2.target=java.lang.String\ computeFormattedPrice(int)
+comment2.text=\n\ Provides\ a\ formatted\ String\ representation\ of\ an\ amount\ in\ pence.\n\n\ @param\ priceInPence\ \ amount\ in\ pence\n\ @return\ a\ formatted\ String\ representation\ of\ the\ given\ amount\ in\ pence\n
+comment3.params=
+comment3.target=java.lang.String\ getFormattedPrice()
+comment3.text=\n\ Returns\ a\ formatted\ String\ representation\ of\ the\ fixed\ price\ of\ this\ object.\n\n\ @return\ a\ formatted\ String\ representation\ of\ the\ fixed\ price\ of\ this\ object\n
+numComments=4

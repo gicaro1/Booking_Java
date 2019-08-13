@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=RickshawBooking
+comment0.text=\n\ A\ RickshawBooking\ is\ a\ booking\ for\ travelling\ from\ a\ start\ point\ to\ a\n\ destination\ point\ via\ a\ rickshaw\ taxi.\ In\ our\ setting,\ a\ rickshaw\n\ always\ transports\ exactly\ one\ passenger.\n\n\ @author\ Guiovanny\ Cardenas\ Rosales\ \n
+comment1.params=name\ date\ from\ to
+comment1.target=RickshawBooking(java.lang.String,\ java.util.Date,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructs\ a\ RickshawBooking\ object\ according\ to\ the\ parameters.\n\n\ @param\ name\ the\ name\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ @param\ date\ the\ point\ in\ time\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ \ and\ must\ not\ be\ in\ the\ past\n\ @param\ from\ the\ start\ point\ of\ the\ rickshaw\ travel;\ must\ not\ be\ null\n\ @param\ to\ the\ destination\ point\ of\ the\ rickshaw\ travel;\ must\ not\ be\ null\n
+comment2.params=
+comment2.target=java.lang.String\ getFrom()
+comment2.text=\n\ @return\ star\ point\ \ location\ location\ and\ must\ not\ be\ null.\n
+comment3.params=
+comment3.target=java.lang.String\ getTo()
+comment3.text=\n\ @return\ end\ \ point\ \ location\ location\ and\ must\ not\ be\ \ null.\n
+comment4.params=
+comment4.target=int\ getNumberOfPersons()
+comment4.text=\n\ rickshaw\ \ taxi\ always\ transports\ exactly\ one\ pessenger\ \ \n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

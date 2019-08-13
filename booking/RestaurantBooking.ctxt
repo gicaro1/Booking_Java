@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=RestaurantBooking
+comment0.text=\n\ A\ RestaurantBooking\ is\ a\ booking\ at\ a\ specific\ location\n\ for\ a\ given\ number\ of\ persons.\n\ \n\ @author\ \ Guiovanny\ Cardenas\ Rosales\ \n
+comment1.params=name\ date\ location\ numberOfPersons
+comment1.target=RestaurantBooking(java.lang.String,\ java.util.Date,\ java.lang.String,\ int)
+comment1.text=\n\ Constructs\ a\ new\ RestaurantBooking\ according\ to\ the\ parameters.\n\n\ @param\ name\ the\ name\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ @param\ date\ the\ point\ in\ time\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ \ and\ must\ not\ be\ in\ the\ past\n\ @param\ location\ the\ address\ of\ the\ restaurant;\ must\ not\ be\ null\n\ @param\ numberOfPersons\ the\ number\ of\ persons\ for\ whom\ the\ booking\ is\ made;\ at\ least\ 1\n
+comment2.params=
+comment2.target=int\ getNumberOfPersons()
+comment2.text=\n\ @returns\ \ the\ number\ of\ persons\ \ for\ whom\ the\ \ booking\ \ has\ been\ made,\ must\ be\ at\ least\ 1;\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LocationBooking
+comment0.text=\n\ A\ LocationBooking\ is\ a\ booking\ for\ a\ fixed\ location.\n\ \ Abstract\ subclass\ for\ our\ Booking\ hierarchy.\ location\ booking\ \ provides\ a\ name,\n\ a\ date\ (the\ point\ in\ time\ for\ which\ the\ booking\ was\ made),\ and\ location.\n\ \n\ @author\ Guiovanny\ Cardenas\ Rosales\ \n
+comment1.params=name\ date\ location
+comment1.target=LocationBooking(java.lang.String,\ java.util.Date,\ java.lang.String)
+comment1.text=\n\ Constructs\ a\ new\ Location\ with\ a\ name,date,\ location\ .\n\n\ @param\ name\ the\ name\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ @param\ date\ the\ point\ in\ time\ for\ which\ the\ booking\ was\ made;\n\ must\ not\ be\ null\ and\ must\ not\ be\ in\ the\ past\n\ @\ the\ location\ where\ the\ booking\ was\ made;\n\ \ \n
+comment2.params=
+comment2.target=int\ getNumberOfPersons()
+comment2.text=\n\ Returns\ the\ number\ of\ persons\ for\ whom\ the\ booking\ has\ been\ made.\n\ Concrete\ subclasses\ will\ need\ to\ provide\ a\ suitable\ implementation.\n\ \ \ EXTENDABILITY\ CODE\ FOR\ FUTURE\ RELEASE\ SOFTWARE\ \ \n\ @return\ the\ number\ of\ persons\ for\ which\ the\ booking\ has\ been\ made,\n\ \ greater\ than\ or\ equal\ to\ zero\n
+comment3.params=
+comment3.target=java.lang.String\ getLocation()
+comment3.text=\n\ @return\ the\ name\ of\ the\ location,\ non-null\n
+numComments=4

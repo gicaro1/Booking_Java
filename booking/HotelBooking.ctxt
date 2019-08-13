@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=HotelBooking
+comment0.text=\n\ A\ HotelBooking\ is\ a\ LocationBooking\ with\ a\ fixed\ total\ price,\ a\ number\ of\n\ booked\ single\ rooms,\ and\ a\ number\ of\ booked\ double\ rooms.\n\n\ @author\ \ Guiovanny\ Cardenas\ Rosales\ \n
+comment1.params=name\ date\ location\ totalPriceInPence\ singleRooms\ doubleRooms
+comment1.target=HotelBooking(java.lang.String,\ java.util.Date,\ java.lang.String,\ int,\ int,\ int)
+comment1.text=\n\ Constructs\ a\ new\ HotelBooking\ according\ to\ the\ parameters.\n\ Note\ that\ at\ least\ one\ room\ must\ be\ booked.\n\n\ @param\ name\ the\ name\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ @param\ date\ the\ point\ in\ time\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ \ and\ must\ not\ be\ in\ the\ past\n\ @param\ location\ the\ address\ of\ the\ hotel;\ must\ not\ be\ null\n\ @param\ totalPriceInPence\ the\ total\ price\ in\ pence\ for\ the\ booking\n\ @param\ singleRooms\ the\ number\ of\ single\ rooms,\ must\ be\ at\ least\ 0\n\ @param\ doubleRooms\ the\ number\ of\ double\ rooms,\ must\ be\ at\ least\ 0\ \n
+comment2.params=
+comment2.target=int\ getSingleRooms()
+comment2.text=\n\ @return\ \ the\ number\ of\ \ booked\ Single\ rooms\ and\ must\ be\ at\ least\ 0.\n
+comment3.params=
+comment3.target=int\ getDoubleRooms()
+comment3.text=\n\ @return\ \ the\ number\ of\ \ booked\ Double\ \ rooms\ and\ must\ be\ at\ least\ 0.\n
+comment4.params=
+comment4.target=int\ getNumberOfPersons()
+comment5.params=
+comment5.target=int\ getFixedPriceInPence()
+comment5.text=\n\ @returns\ the\ total\ price\ in\ pence\ for\ this\ booking\ \ ;\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

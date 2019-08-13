@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FixedPriceRestaurantBooking
+comment0.text=\n\ A\ FixedPriceRestaurantBooking\ is\ a\ RestaurantBooking\ where\ a\ special\ menu\n\ for\ the\ evening\ with\ a\ fixed\ price\ per\ person\ is\ ordered\ in\ advance.\ Thus,\n\ the\ total\ price\ for\ all\ persons\ together\ is\ also\ fixed.\n\n\ @author\ Guiovanny\ Cardenas\ Rosales\ \n
+comment1.params=name\ date\ location\ numberOfPersons\ pricePerPersonInPence
+comment1.target=FixedPriceRestaurantBooking(java.lang.String,\ java.util.Date,\ java.lang.String,\ int,\ int)
+comment1.text=\n\ Constructs\ a\ new\ FixedPriceRestaurantBooking\ according\ to\ the\ parameters.\n\n\ @param\ name\ the\ name\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ @param\ date\ the\ point\ in\ time\ for\ which\ the\ booking\ was\ made;\ must\ not\ be\ null\n\ \ and\ must\ not\ be\ in\ the\ past\n\ @param\ location\ the\ address\ of\ the\ restaurant;\ must\ not\ be\ null\n\ @param\ numberOfPersons\ the\ number\ of\ persons\ for\ whom\ the\ booking\ is\ made;\ at\ least\ 1\n\ @param\ pricePerPersonInPence\ the\ price\ per\ person\ in\ pence\n
+comment2.params=
+comment2.target=int\ getFixedPriceInPence()
+comment2.text=\n\ @returns\ \ \ fixed\ price\ in\ pence\ for\ this\ object;\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
